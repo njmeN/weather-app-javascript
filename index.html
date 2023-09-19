@@ -9,7 +9,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
-<body class="p-0 mg-0 outline-none box-border h-[100vh] flex items-center justify-center bg-darkblue">
+<body class="p-0 m-0 outline-none box-border h-[100vh] flex items-center justify-center bg-darkblue relative">
+    <div class="alertMsg absolute rounded-md top-5 left-5 px-6 py-5 text-base font-medium font-roboto bg-[#dc3545] text-white hidden" role="alert">
+        You're offline. Check your Connection!
+    </div>
 <div class="container relative w-[25rem] h-28 bg-white py-7 px-8 overflow-hidden rounded-2xl transition-all duration-300 ease-out font-roboto">
     <div class="search-box w-full h-min flex items-center justify-between">
         <i class="fa-solid fa-location-dot absolute text-darkblue text-3xl"></i>
