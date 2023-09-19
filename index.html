@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body class="p-0 mg-0 outline-none box-border h-[100vh] flex items-center justify-center bg-darkblue">
+<div class="container relative w-[25rem] h-28 bg-white py-7 px-8 overflow-hidden rounded-2xl transition-all duration-300 ease-out font-roboto">
+    <div class="search-box w-full h-min flex items-center justify-between">
+        <i class="fa-solid fa-location-dot absolute text-darkblue text-3xl"></i>
+        <input type="text" dir="auto" placeholder="Enter your location" class="text-darkblue w-4/5 text-2xl font-medium uppercase pl-10 placeholder:text-lg placeholder:font-medium placeholder:text-darkblue placeholder:capitalize focus:outline-none">
+        <button class="fa-solid fa-magnifying-glass cursor-pointer w-12 h-12 text-darkblue bg-lightBlue rounded-full text-2xl transition-all duration-300 ease-out hover:text-white hover:bg-darkblue"></button>
+    </div>
+    <div class="weather-box text-center">
+        <img src="" class="w-3/5 pt-7 mx-auto">
+        <p class="temperature relative text-darkblue text-lg font-extrabold mt-7 -ml-4"></p>
+        <p class="description text-xl font-medium capitalize"></p>
+    </div>
+
+    <div class="weather-details w-full flex justify-between mt-7">
+        <div class="humidity pl-5 justify-start">
+            <i class="fa-solid fa-water"></i>
+            <div class="text">
+                <span></span>
+               <p>Humidity</p>
+            </div>
+        </div>
+        <div class="wind pr-5 justify-end">
+            <i class="fa-solid fa-wind"></i>
+            <div class="text">
+                <span></span>
+                <p>Wind Speed</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+<script src="https://kit.fontawesome.com/cc60ff0d42.js" crossorigin="anonymous"></script>   
+<script src="main.js" /> 
+</body>
+</html>
