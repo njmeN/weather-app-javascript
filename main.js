@@ -66,10 +66,7 @@ async function checkWethear(city) {
 search.addEventListener('click', () => {
     checkWethear(city.value)
 });    
-window.addEventListener("online", function() {
-    console.log("I am connected to the internet")
-  })
-  
+ 
   window.addEventListener("offline", function() {
     var alertMsg = document.querySelector('.alertMsg');
     showAlert(alertMsg , 2000);
